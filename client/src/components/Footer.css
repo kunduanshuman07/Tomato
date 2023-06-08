@@ -1,0 +1,25 @@
+.footer {
+  background-color: rgb(51, 83, 159);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+
+}
+
+.social-media-links {
+  margin-top: 10px;
+}
+
+.social-media-links a {
+  margin-right: 10px;
+  color: white;
+}

@@ -1,0 +1,40 @@
+.restaurant-list-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.restaurant {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.restaurant h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.restaurant p {
+  margin-bottom: 10px;
+}
+
+.restaurant a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: rgb(51, 83, 159);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 14px;
+}

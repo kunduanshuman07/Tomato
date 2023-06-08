@@ -1,0 +1,67 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.signup-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+}
+
+.signup-card h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(51, 83, 159);
+}
+
+.signup-card input[type="text"],
+.signup-card input[type="password"],
+.signup-card input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.signup-card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(51, 83, 159);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-card button:hover {
+  background-color: rgb(33, 56, 115);
+}
+
+.signup-card p {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(51, 83, 159);
+}
+
+.signup-card p a {
+  color: rgb(51, 83, 159);
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  /* Adjustments for small screens */
+  .signup-card {
+    padding: 20px;
+  }
+}

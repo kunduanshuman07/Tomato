@@ -1,0 +1,42 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 10px;
+}
+
+.about-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 30px;
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.about-card h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(51, 83, 159);
+}
+
+.about-card p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.about-card img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.about-card .highlight {
+  color: rgb(51, 83, 159);
+  font-weight: bold;
+}
